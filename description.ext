@@ -1,0 +1,99 @@
+allowFunctionsLog = 1;
+allowFunctionsRecompile = 1;
+
+#include "smgr\functions\controls.hpp"
+#include "smgr\CfgSmgr.hpp"
+#include "smgr\rsc\common.hpp"
+#include "smgr\rsc\RscSmgr.hpp"
+#include "smgr\rsc\DlgSmgr.hpp"
+
+class RscTitles {
+	#include "smgr\rsc\DlgSmgrHud.hpp"
+};
+
+class CfgFunctions
+{
+
+	class SMGR {
+
+		class functions {
+			file = "smgr\functions";
+			class WpReplace {};
+			class WpMark {};
+			class WpListControllerUpdateView {};
+			class WpListController {};
+			class WpInsert {};
+			class WpEditControllerUpdateView {};
+			class WpEditControllerUpdateField {};
+			class WpEditControllerSelectField {};
+			class WpEditControllerSave {};
+			class WpEditController {};
+			class WpDelete {};
+			class SettingsControllerUpdateView {};
+			class SettingsControllerSwitchValue {};
+			class SettingsController {};
+			class NavControllerUpdateView {};
+			class NavControllerSwitchWp {};
+			class NavControllerSwitchOpMod {};
+			class NavControllerGetWpName {};
+			class NavControllerGetWpIdx {};
+			class NavControllerGetWpGrid {};
+			class NavControllerGetWpDist {};
+			class NavControllerGetWpDir {};
+			class NavControllerGetSteering {};
+			class NavControllerGetPowerLeft {};
+			class NavControllerGetOpMod {};
+			class NavControllerGetGrid {};
+			class NavControllerGetErrorRate {};
+			class NavControllerGetElevation {};
+			class NavControllerGetCurWp {};
+			class NavController {};
+			class MgmtUnassignAllKeyActions {};
+			class MgmtShutdown {};
+			class MgmtIsActiveController {};
+			class MgmtInitController {};
+			class MgmtGetView {};
+			class MgmtDeactivateView {};
+			class MgmtDeactivateAllViews {};
+			class MgmtAssignKeyActions {};
+			class MgmtActivateView {};
+			class MgmtActivateController {};
+			class mapSettings {postinit = 1;};
+			class mapGridPosition {};
+			class MainMenuControllerUpdateView {};
+			class MainMenuControllerSelectEntry {};
+			class MainMenuControllerGetItems {};
+			class MainMenuController {};
+			class LoadHud {};
+			class Load {};
+			class KeyPressed {};
+			class InputBufferControllerUpdateView {};
+			class InputBufferControllerAddNumber {};
+			class InputBufferControllerAddChar {};
+			class InputBufferController {};
+			class Init {postinit = 1;};
+			class GpsTrackLoop {};
+			class GpsGetSentence {};
+			class GpsGetError {};
+			class FormatMSF {};
+			class FormatGrid {};
+			class FormatElevation {};
+			class FormatDist {};
+			class FormatDate {};
+			class FormatAngle {};
+			class ErrorMessageControllerUpdateView {};
+			class ErrorMessageController {};
+			class DataLinkControllerUpdateView {};
+			class DataLinkController {};
+			class ComInterfaceP2PControllerUpdateView {};
+			class ComInterfaceP2PControllerSend {};
+			class ComInterfaceP2PControllerReceive {};
+			class ComInterfaceP2PController {};
+			class ComInterfaceControllerMenuUpdateView {};
+			class ComInterfaceController {};
+			class BootControllerUpdateView {};
+			class BootController {};
+			class arrayRotate {};
+		};
+	};
+};

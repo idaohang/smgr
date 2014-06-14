@@ -1,0 +1,1 @@
+#define IsActiveController(controller)	[controller] call SMGR_fnc_MgmtIsActiveController
